@@ -5,9 +5,8 @@
 </h1>
 
 <!-- Button linking to the LinkedIn profile -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrewcerqueira)
-
 <!-- Button linking to the Instagram profile -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrewcerqueira)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/andy.martins/)
 
 <!-- Section displaying GitHub stats for the user -->
