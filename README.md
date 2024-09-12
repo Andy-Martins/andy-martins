@@ -12,4 +12,4 @@
 
 
 
-![snake gif](https://github.com/Andy-Martins/Andy-Martins/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/Andy-Martins/Andy-Martins/blob/output/github-contribution-grid-snake.gif)
