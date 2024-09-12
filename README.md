@@ -5,3 +5,9 @@
 
 
 ![Andrew GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy-Martins&show_icons=true&theme=radical)
+
+
+
+
+
+![snake gif](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.gif)
