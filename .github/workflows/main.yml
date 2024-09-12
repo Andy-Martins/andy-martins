@@ -23,29 +23,39 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    # Steps define the tasks to be executed as part of the job.
     steps:
       - name: Clone repo
+        # Checks out the repository's code so it can be used in the workflow.
         uses: actions/checkout@v3
     
       - name: Generate the snake files in './dist/'
+        # Uses the Platane/snk action to generate the snake animation.
         uses: Platane/snk@v3
         id: snake-gif
         with:
+          # Specifies the GitHub username dynamically.
           github_user_name: ${{ github.repository_owner }}
           outputs: |     
             dist/grid-snake-custom.svg?color_snake=#e23c81&color_dots=#161b22,#01311f,#034525,#0f6d31,#00c647&color_dot_border=#1b1f230a&color_empty=#161b22
         env:
+           # Provides the GitHub token needed to authenticate API requests.
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Show build status
+        # Displays the current status of the repository.
         run: git status
 
       - name: Push new files to the output branch
+        # Uses the GitHub Pages action to push the generated files to a specific branch.
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
+          # Specifies the branch to push the generated files to.
           target_branch: output
+          # Specifies the directory containing the files to be pushed.
           build_dir: dist
+          # Sets a custom commit message.
           commit_message: Update snake animations
         env:
+          # Provides the GitHub token to authenticate the push action.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
