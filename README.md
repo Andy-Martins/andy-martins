@@ -1,7 +1,7 @@
 <!-- Centered heading with typing animation -->
 <h1 align="center">
     <!-- Dynamically generated image that simulates typing text -->
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&color=e23c81&center=true&vCenter=true&width=600&height=70&duration=6000&lines=Olá!+👋;+Sou+Andrew+Cerqueira+Martins!;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&color=e23c81&center=true&vCenter=true&width=600&height=70&duration=7000&lines=Olá!+👋;+Sou+Andrew+Cerqueira+Martins!;" />
 </h1>
 
 <!-- Button linking to the LinkedIn profile -->
