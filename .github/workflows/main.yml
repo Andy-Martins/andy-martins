@@ -1,3 +1,9 @@
+- name: snake
+  uses: ad-m/github-push-action@master
+  with:
+    github_token: ${{ secrets.GITHUB_TOKEN }}
+    branch: main
+
 # GitHub Action for generating a contribution graph with a snake eating your contributions.
 
 name: Generate Snake
