@@ -10,7 +10,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/andy.martins/)
 
 <!-- Section displaying GitHub stats for the user -->
-![Andrew GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy-Martins&show_icons=true&theme=radical)
+<!--![Andrew GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy-Martins&show_icons=true&theme=radical)-->
 
 <!-- Animation of a snake "eating" the GitHub commits -->
 ![snake gif](https://github.com/Andy-Martins/Andy-Martins/blob/output/grid-snake-custom.svg)
